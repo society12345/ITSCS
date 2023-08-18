@@ -58,26 +58,43 @@
                 </div>
 
                 <div class="col-sm-8">
-                  <h2>Striped Rows</h2>
-                  <p>The .table-striped class adds zebra-stripes to a table:</p>            
+                  <h2>Data Table</h2>
+                  <p>Data input By User</p>            
                   <table class="table table-striped">
                     <thead>
                       <tr>
                         <th>LastName</th>
                         <th>FirstName</th>
                         <th>MiddleName</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Action</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td>John</td>
                         <td>Doe</td>
-                        <td>john@example.com</td>
+                        <td>ecan</td>
+                        <td>21</td>
+                        <td>Male</td>
+                        <td>  
+                           <a href="">Edit</a>
+                           <label>|</label>
+                           <a href="">Delete</a>
+                        </td>
                       </tr>
                       <tr>
                         <td>Mary</td>
                         <td>Moe</td>
-                        <td>mary@example.com</td>
+                        <td>jurds</td>
+                        <td>25</td>
+                        <td>Female</td>
+                        <td>  
+                          <a href="">Edit</a>
+                          <label>|</label>
+                          <a href="">Delete</a>
+                       </td>
                       </tr>
                       
                     </tbody>
